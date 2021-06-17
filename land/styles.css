@@ -31,6 +31,8 @@ margin-bottom: 4%;
 
 #header{
   margin-bottom: 6%;
+  font-size: 150%;
+  font-weight: bold;
 }
 .images{
      width: 100%
@@ -164,16 +166,17 @@ opacity:0.1;
 .card-header{
   font-family: 'Source Sans Pro', sans-serif;
   font-size:150%;
-  font-weight: bold;
+  font-weight: bolder;
 }
 .card-footer{
   font-family: 'Source Sans Pro', sans-serif;
   font-size:150%;
-  font-weight: bold;
+  font-weight: bolder;
 }
 .card-body{
   font-family: 'Source Sans Pro', sans-serif;
   font-size:120%;
+  font-weight: bold;
 }
 .prices{
   margin-bottom: 6%;
