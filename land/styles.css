@@ -1,0 +1,206 @@
+.navbar-custom {
+    background-color: #000000;
+}
+.nav-item{
+  text-align:center;
+}
+.nav-link{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:100%;
+  color:white;
+}
+button{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:130%;
+  text-align:center;
+  font-weight: bold;
+}
+
+
+body{
+background-color: #1A1C20;
+margin:0;
+}
+.home{
+margin-bottom: 4%;
+  padding:0;
+  position: relative;
+ text-align: left;
+
+}
+
+#header{
+  margin-bottom: 6%;
+}
+.images{
+     width: 100%
+
+}
+h3{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 400%;
+}
+.intro{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:150%;
+  font-weight: bold;
+  color:white;
+  position: absolute;
+  bottom:8%;
+  left:2%;
+  margin-right: 50%;
+}
+.seasons{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:100%;
+  color:#FFAC41;
+}
+.sea{
+
+  border: 2px solid #FFAC41;
+}
+.seas{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:120%;
+  color:#FFAC41;
+}
+@media (max-width: 1063px) {
+    .intro{
+      text-align: center;
+      position:static;
+      margin: 0;
+    }
+}
+@media (max-width:530px){
+  #header{
+    margin-bottom: 17%;
+  }
+}
+.carousel-button{
+  color:black;
+}
+form{
+  text-align: center;
+}
+input[type=email]{
+  border: 1px solid black;
+  width: 80%;
+  padding: 8px 20px;
+  padding-bottom: 15px;
+  margin: 8px 0;
+  border-radius: 5px;
+
+
+}
+.get{
+  margin-bottom: 6%;
+  margin-top:4%;
+}
+.vid{
+  text-align: center;
+  margin-bottom:6%;
+}
+#video{
+
+  width:100%;
+}
+h4{
+  font-family: 'Bebas Neue', cursive;
+  font-size:300%;
+  font-weight: bold;
+  color:white;
+
+}
+.fea{
+  padding:5% 16%;
+    text-align: center;
+}
+.watch{
+  padding-bottom: 10%;
+
+}
+.wer{
+  animation-name: move;
+  animation-duration: 3s;
+}
+@keyframes move {
+  50% {
+    right: 5%;
+opacity:0.1;
+  }
+}
+.feau{
+  margin-top: 10%;
+}
+.feaur{
+  margin-top: 10%;
+  padding-left: 10%;
+}
+.feat{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:150%;
+  font-weight: bold;
+  color:white;
+
+}
+.image-fea{
+  width:100%;
+}
+.img-fe{
+  max-width: 90%;
+  animation-name: image;
+  animation-duration: 3s;
+}
+@keyframes image {
+  50% {
+    left: 5%;
+opacity:0.1;
+  }
+}
+.price{
+  padding:5% 16%;
+    text-align: center;
+}
+.card-header{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:150%;
+  font-weight: bold;
+}
+.card-footer{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:150%;
+  font-weight: bold;
+}
+.card-body{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:120%;
+}
+.prices{
+  margin-bottom: 6%;
+}
+.basic:hover{
+  transform:scale(1.04);
+  cursor:pointer;
+}
+.standard:hover{
+  transform:scale(1.04);
+  cursor:pointer;
+}
+.premium:hover{
+  transform:scale(1.04);
+  cursor:pointer;
+}
+hr{
+  border-top:5px solid #000000;
+  width:100%;
+}
+.foot{
+  display:flex;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:150%;
+  font-weight: bold;
+  color:white;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding-right: 1%;
+}
